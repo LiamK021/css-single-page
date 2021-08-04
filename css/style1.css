@@ -1,0 +1,304 @@
+.insulation{
+	margin-top: 2em;
+	min-height: 20vh;
+	padding: 0em 6em 0em 6em;
+    height: 100%;
+    text-align: center;
+}
+.insulation .title{
+	background: linear-gradient(90deg, #3e7ba4 0, #56afd9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #244c5a;
+    margin: 0 0 8px;
+    padding-top: 10px;
+    font-weight: 700!important;
+}
+.insulation .text-holder{
+	padding: 0em 5em 0em 5em;
+	font-weight: 5;
+    letter-spacing: 0.05em;
+    /*margin: 0 0 10px;*/
+}
+.image-section{
+	margin-top:1em;
+	margin-left: 6em;
+	margin-right: 6em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.image-section .flex-left-item{
+	flex: 52%;
+}
+.image-section .flex-left-item img{
+	width: 100%;
+	height: 80%
+}
+.image-section .flex-right-item{
+	/*padding-left: 2em;*/
+	padding-top: 2em;
+	flex: 48%;
+}
+.image-section .flex-right-item .content-holder p{
+	letter-spacing: 0.05em;
+}
+.value-section{
+	margin-top:1em;
+	margin-left: 6em;
+	margin-right: 6em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.value-section .flex-right-item {
+	margin-top: 20px;
+}
+.value-section .flex-left-item{
+	margin-right: 20px;
+}
+.value-item{
+	flex: "50%";
+	background: linear-gradient(65deg, #20536a, #2cade3 40%, #4bbb80 85%, #f1aa20);
+	width: 100%;
+	border-radius: 15px;
+	padding: 6px;
+}
+.value-item .text-area{
+	background: white;
+	height: 100%;
+	border-radius: 15px;
+	text-align: center;
+	padding: 2em 3em 2em 3em;
+}
+.ins-section{
+	margin-top:1em;
+	margin-left: 6em;
+	margin-right: 6em;
+	text-align: center;
+}
+.hr-bar{
+	margin-top: 4em;
+	height: 15px;
+	background: linear-gradient(65deg, #20536a, #2cade3 40%, #4bbb80 85%, #f1aa20);
+}
+.up-footer{
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+}
+.up-footer .subscribe{
+	flex: 30%;
+	padding-bottom: 2em;
+}
+.up-footer .subscribe .email-input {
+	display: flex;
+	flex-direction: row;
+}
+.up-footer .subscribe .email-input div input {
+	border: none;
+	outline: none;
+}
+.up-footer .subscribe .email-input div{
+	position: relative;
+}
+.up-footer .subscribe .email-input div i {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+}
+.up-footer .subscribe .email-input div input {
+	padding-left: 40px;
+	background: #c5c6d0;
+}
+.up-footer .subscribe .email-input button {
+	margin-left: 2px;
+	background: #2cade3;
+	border: 0px;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.up-footer .contact-us {
+	padding-left: 2em;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2em;
+}
+.up-footer .contact-us div {
+	display: flex;
+	justify-content: space-between;
+}
+.up-footer .contact-us a i{
+	font-size: 24px;
+}
+.up-footer .contact-us a{
+	align-self: center;
+}
+.up-footer .contact-us .text-holder{
+	text-align: center;
+}
+.up-footer .contact-us .social-holder{
+	width: 100%; height: 100%
+}
+.up-footer .logo{
+	flex: 40%;
+    align-self: center;
+    padding-top: 4em;
+}
+.down-footer{
+	display: flex;
+	flex-direction: column;
+	padding: 3em 3em 3em 3em;
+	align-items: center;
+}
+.down-footer .down-words{
+	display: flex;
+	flex-direction: column;
+	flex: 85%;
+}
+.down-footer .down-words a{
+	padding-top: 1em;
+}
+.down-footer .down-logo{
+	padding-top: 1em;
+	margin-left: -2em;
+}
+@media screen and (min-width: 1024px) {
+    .h1,
+    h1 {
+        font-size: 60px;
+        line-height: 0.94;
+    }
+    .h2,
+    h2 {
+        font-size: 48px;
+    }
+    body {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 22px;
+        border-radius: 50px;
+        border: 3px solid #244c5a;
+        padding: 10px 20px 12px;
+    }
+    .btn svg {
+        width: 20px;
+    }
+    .btn.btn-blue-grad:before {
+        border-radius: 50px;
+    }
+    .btn.btn-blue-grad:after {
+        top: 3px;
+        left: 3px;
+        right: 3px;
+        bottom: 3px;
+        border-radius: 50px;
+    }
+    .image-section{
+		margin-top:1em;
+		margin-left: 6em;
+		margin-right: 6em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.image-section .flex-right-item{
+	padding-left: 2em;
+	padding-top: 0em;
+	flex: 48%;
+	}
+	.value-section{
+		margin-top:1em;
+		margin-left: 6em;
+		margin-right: 6em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.value-section .flex-right-item {
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+	.up-footer{
+		display: flex;
+		flex-direction: row;
+		padding: 3em;
+	}
+	.up-footer .subscribe{
+		flex: 30%;
+		display: flex;
+	    flex-direction: column;
+	    padding-top: 2em;
+	}
+	.up-footer .contact-us {
+		flex: 20%;
+		padding-left: 2em;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+	.up-footer .contact-us .text-holder{
+		text-align: left;
+	}
+	.up-footer .contact-us .social-holder{
+		width: 75%; height: 100%
+	}
+	.up-footer .logo{
+		flex-direction: row-reverse;
+	    display: flex;
+	    padding-top: 0em;
+	}
+/*	.up-footer .logo{
+		flex-direction: row-reverse;
+	    display: flex;
+	    padding-top: 4em;
+	    padding-bottom: 2em;
+	}*/
+	.down-footer{
+		display: flex;
+		flex-direction: row;
+		padding: 0em 3em 3em 3em;
+
+	}
+	.down-footer .down-words{
+		display: flex;
+		flex-direction: row;
+		flex: 85%;
+	}
+	.down-footer .down-words a {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 16px;
+	}
+	.down-footer .down-words a:nth-child(1) {
+		padding-left: 0px;
+	}
+	.down-footer .down-logo{
+		flex: 15%;
+	}
+	.insulation{
+		margin-top: 2em;
+		min-height: 20vh;
+		padding: 0em 15em 0em 15em;
+	    height: 100%;
+	    text-align: center;
+	}
+	.insulation .text-holder{
+		padding: 0em 5em 0em 5em;
+		font-weight: 5;
+	    letter-spacing: 0.05em;
+	    /*margin: 0 0 10px;*/
+	}
+	.value-item .text-area{
+		background: white;
+		height: 100%;
+		border-radius: 15px;
+		text-align: center;
+		padding: 2em 5em 2em 5em;
+}
+}
